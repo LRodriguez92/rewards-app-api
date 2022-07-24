@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strains",
+  "info": {
+    "singularName": "strain",
+    "pluralName": "strains",
+    "displayName": "Strain"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "eighth": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "dub": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "dime": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    }
+  }
+}
