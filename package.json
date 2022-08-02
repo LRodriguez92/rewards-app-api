@@ -14,12 +14,10 @@
     "@strapi/plugin-i18n": "4.2.3",
     "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/strapi": "4.2.3",
-    "pg": "^8.6.0",
+    "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "26886462-8ebd-4cba-acdd-3344095d28d9"
   },
@@ -27,5 +25,7 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "git@github.com:LRodriguez92/rewards-app-api.git"
 }
