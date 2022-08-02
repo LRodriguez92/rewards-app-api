@@ -7,12 +7,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'rewards'),
       user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', 'lucky13'),
-      ssl: {
-        rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-      },
-      options: {
-        ssl: env.bool('DATABASE_SSL', false),
-      },
+      ssl: env.bool('DATABASE_SSL', false),
     },
   },
 });
