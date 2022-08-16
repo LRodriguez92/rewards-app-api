@@ -31,6 +31,30 @@
       "type": "integer",
       "min": 0,
       "default": 0
+    },
+    "quarter": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "required": false
+    },
+    "half": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "ounce": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "subSpecies": {
+      "type": "string",
+      "required": false
+    },
+    "image": {
+      "type": "string",
+      "default": "https://images.unsplash.com/photo-1605570381318-09756c35fd4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
     }
   }
 }
